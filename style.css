@@ -38,3 +38,15 @@ hr{
     border-radius: 0.6rem ;
     color:var(--primary-color);
 }
+
+
+/* lists */
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    margin:0rem 0.5rem;
+
+}
