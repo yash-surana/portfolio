@@ -1,6 +1,11 @@
 /** font of body changed to PT Sherif **/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --primary-color:rgb(252, 126, 42);
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -13,5 +18,23 @@ body{
 .container-centre{
     max-width:600px;
     margin: auto ;
+}
+hr{
+    margin: 2rem 0rem;
+}
+.link{
+    text-decoration: none;
+    padding:0.5rem 1rem;
+}
+.primary-link{
+    background-color: var(--primary-color);
+    border-radius: 0.6rem ;
+    color: white;
+}
 
+.secondary-link{
+    margin: 0rem 0.5rem;
+    border: 2px solid var(--primary-color) ; 
+    border-radius: 0.6rem ;
+    color:var(--primary-color);
 }
