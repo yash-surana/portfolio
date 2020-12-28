@@ -4,6 +4,7 @@
 
 :root{
     --primary-color:rgb(252, 126, 42);
+    --dark-grey:#354458cc;  
 }
 
 body{
@@ -48,5 +49,45 @@ hr{
 .list-item-inline{
     display: inline;
     margin:0rem 0.5rem;
+}
 
+/* navigation */
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    padding-left: 1rem ;
+    border-bottom-left-radius: 1rem ;
+    border-bottom-right-radius: 1rem;
+}
+
+.navigation .link{
+    color:white;
+}
+.navigation .nav-pills{
+    text-align: right;
+    
+}
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem ;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/* header */
+.hero{
+    padding: 2rem;
+    text-align: center;
+}
+.hero .hero-img{
+    max-width: 350px;
+    display:block;
+    margin: auto;
+}
+.hero-heading{
+    font-size: 3rem;
+    color: var(--dark-grey);
+    padding-top: 0.5rem;
 }
