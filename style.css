@@ -4,7 +4,9 @@
 
 :root{
     --primary-color:rgb(252, 126, 42);
-    --dark-grey:#354458cc;  
+    --dark-grey:rgb(47,46,65);  
+    --offwhite : #F3F4F6;
+
 }
 
 body{
@@ -13,7 +15,7 @@ body{
 
 /**  container **/
 .container{
-    padding-left: 1rem;
+    padding-left: 0rem;
     padding-right: 1rem;
 }
 .container-centre{
@@ -70,7 +72,7 @@ hr{
 }
 .navigation .nav-brand{
     font-weight: bold;
-    font-size: 1.1rem ;
+    font-size: 1.4rem ;
 }
 .navigation .link-active{
     font-weight: bold;
@@ -90,4 +92,16 @@ hr{
     font-size: 3rem;
     color: var(--dark-grey);
     padding-top: 0.5rem;
+}
+.section{
+    padding:2rem;
+}
+
+.section h2{
+    text-align: center;
+    
+}
+
+.ow{
+    background-color: var(--offwhite);
 }
