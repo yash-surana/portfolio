@@ -28,18 +28,23 @@ hr{
 .link{
     text-decoration: none;
     padding:0.5rem 1rem;
+    
 }
 .primary-link{
     background-color: var(--primary-color);
     border-radius: 0.6rem ;
     color: white;
+    margin: 1.5rem 1rem 0.8rem 0rem;
+
 }
 
 .secondary-link{
-    margin: 0rem 0.5rem;
+    
     border: 2px solid var(--primary-color) ; 
     border-radius: 0.6rem ;
     color:var(--primary-color);
+    margin-left:0.5rem ;
+    margin: 19rem 1rem 0.8rem 0rem;
 }
 
 
@@ -50,7 +55,7 @@ hr{
 
 .list-item-inline{
     display: inline;
-    margin:0rem 0.5rem;
+    margin:0rem 1.5rem;
 }
 
 /* navigation */
@@ -88,14 +93,22 @@ hr{
     display:block;
     margin: auto;
 }
-.hero-heading{
+.hero .hero-heading-main{
     text-align: center;
     font-size: 3rem;
     color: var(--dark-grey);
     padding-top: 0.5rem;
 }
+.hero .hero-heading{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--dark-grey);
+    padding-top: 0.5rem;
+}
+
 .section{
     padding:2rem;
+
 }
 
 .section h2{
@@ -105,6 +118,7 @@ hr{
 
 .ow{
     background-color: var(--offwhite);
+
 }
 
 /** footers **/
@@ -114,14 +128,22 @@ footer{
     padding: 2rem ;
     text-align: center;
     color:white;
-    border-bottom-left-radius: 1rem ;
-    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem ;
+    border-top-right-radius: 1rem;
 
 }
+.footer .footer-header{
+    font-size: 0.6cm;
 
+}
 .footer .link{
     color:white;
 }
 .footer ul{
     padding-inline-start: 0px ;
+    font-size:0.5cm;
+}
+
+.blog{
+    text-align: justify;
 }
