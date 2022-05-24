@@ -87,11 +87,45 @@ hr{
 .hero{
     padding: 2rem;
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
 }
 .hero .hero-img{
     max-width: 350px;
-    display:block;
+    border-radius: 20%;
     margin: auto;
+    
+
+
+}
+.hero-img:hover{
+    -webkit-box-shadow: 11px 12px 6px -1px rgba(92,44,5,1);
+    -moz-box-shadow: 11px 12px 6px -1px rgba(92,44,5,1);
+    box-shadow: 11px 12px 6px -1px rgba(92,44,5,1);
+    
+    margin-right: 12px;
+}
+.hero-div{
+    max-width: 500px;
+    width: 500px;
+    padding: 12px;
+    vertical-align: baseline;
+
+}
+
+.hero-div h3{
+    font-size: 48px;
+    margin-bottom: 36px;
+}
+
+.hero-div p{
+    text-align: justify;
+}
+
+.hero-div span {
+    font-weight: 800;
+    font-size: larger;
 }
 .hero .hero-heading-main{
     text-align: center;
